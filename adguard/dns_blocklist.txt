@@ -2,8 +2,17 @@
 ! Title: Sebastian Fix | AdGuard DNS filter
 ! Homepage: https://github.com/StanBarrows/dotfile
 ! License: https://github.com/StanBarrows/dotfile/blob/main/LICENSE.md
-! File: https://github.com/StanBarrows/dotfile/blob/main/adguard/dns_blocklist.txt
+! File: https://raw.githubusercontent.com/StanBarrows/dotfile/main/adguard/dns_blocklist.txt
 ! Last modified: 2020-11-13T15:51:31.048Z
 !
-! #Apple Services
+! # Apple Services
 ||oscp.apple.com
+||bag.itunes.apple.com
+||uts-api.itunes.apple.com
+||xp.itunes-apple.com.akadns.net
+
+
+! # Samsung TV
+||osb.samsungqbe.com
+||cdn.samsungcloudsolution.com
+||tvplus-cdn.www.funke.video
