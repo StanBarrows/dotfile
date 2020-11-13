@@ -1,0 +1,10 @@
+!
+! Title: Sebastian Fix | AdGuard DNS filter
+! Homepage: https://github.com/StanBarrows/dotfile
+! License: https://github.com/StanBarrows/dotfile
+! Last modified: 2020-11-13T15:51:31.048Z
+!
+! Compiled by @adguard/hostlist-compiler v1.0.8
+!
+||ytymetuw.xyz^
+||dormyawape.com^
