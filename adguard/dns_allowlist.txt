@@ -1,0 +1,10 @@
+!
+! Title: Sebastian Fix | AdGuard DNS Allowlist
+! Homepage: https://github.com/StanBarrows/dotfile
+! License: https://github.com/StanBarrows/dotfile/blob/main/LICENSE.md
+! File: https://raw.githubusercontent.com/StanBarrows/dotfile/main/adguard/dns_allowlist.txt
+! Last modified: 2020-11-14
+!
+! # Company
+||codebar.ch
+

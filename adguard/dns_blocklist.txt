@@ -1,9 +1,9 @@
 !
-! Title: Sebastian Fix | AdGuard DNS filter
+! Title: Sebastian Fix | AdGuard DNS Blocklist
 ! Homepage: https://github.com/StanBarrows/dotfile
 ! License: https://github.com/StanBarrows/dotfile/blob/main/LICENSE.md
 ! File: https://raw.githubusercontent.com/StanBarrows/dotfile/main/adguard/dns_blocklist.txt
-! Last modified: 2020-11-13T15:51:31.048Z
+! Last modified: 2020-11-14
 !
 ! # Apple Services
 ||oscp.apple.com
