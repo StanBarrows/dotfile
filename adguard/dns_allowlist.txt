@@ -11,5 +11,7 @@
 
 
 # Services
+## Discord
 ||discord.com
+||gateway.discord.gg
 
