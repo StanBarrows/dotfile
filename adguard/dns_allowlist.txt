@@ -8,8 +8,6 @@
 ! # Company
 ||codebar.ch
 ||usefathom.com
-
-
 # Services
 ## Discord
 ||discord.com
