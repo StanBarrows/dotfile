@@ -12,7 +12,7 @@
 ## Discord
 ||discord.com
 ||gateway.discord.gg
-# Programming
+# AWS Service
 ||amazon.com
 ||awsstatic.com
 ||na.amazon.com
