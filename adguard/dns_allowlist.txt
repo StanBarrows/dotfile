@@ -13,6 +13,6 @@
 ||discord.com
 ||gateway.discord.gg
 # Programming
-||aws.amazon.com
+||amazon.com
 ||awsstatic.com
 
