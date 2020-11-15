@@ -15,4 +15,7 @@
 # Programming
 ||amazon.com
 ||awsstatic.com
+||na.amazon.com
+||ssl-images-amazon.com
+||media-amazon.com
 
