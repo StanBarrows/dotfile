@@ -18,4 +18,5 @@
 ||na.amazon.com
 ||ssl-images-amazon.com
 ||media-amazon.com
+||sagemaker.aws
 
