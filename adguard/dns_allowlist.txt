@@ -9,11 +9,14 @@
 ||codebar.ch
 ||licdn.com
 ||usefathom.com
-# Services
-## Discord
+!
+!# Services
+!
+! # Discord
 ||discord.com
 ||gateway.discord.gg
-# AWS Service
+
+! # AWS Service
 ||amazon.com
 ||awsstatic.com
 ||na.amazon.com

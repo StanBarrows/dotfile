@@ -10,6 +10,7 @@
 ||bag.itunes.apple.com
 ||uts-api.itunes.apple.com
 ||xp.itunes-apple.com.akadns.net
+!
 ! # Samsung TV
 ||osb.samsungqbe.com
 ||cdn.samsungcloudsolution.com
