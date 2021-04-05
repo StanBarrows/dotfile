@@ -5,6 +5,9 @@
 ! File: https://raw.githubusercontent.com/StanBarrows/dotfile/main/adguard/dns_blocklist.txt
 ! Last modified: 2020-11-14
 !
+! # Ubiquiti
+||trace.svc.ui.com
+!
 ! # Apple Services
 ||oscp.apple.com
 ||bag.itunes.apple.com
