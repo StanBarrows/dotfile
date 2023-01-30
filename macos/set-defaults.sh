@@ -61,18 +61,13 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Disable the warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
-# Show the ~/Library folder
-chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
-
-# Show the /Volumes folder
-sudo chflags nohidden /Volumes
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
-# Set the timezone; see `systemsetup -listtimezones` for other values
-systemsetup -settimezone "Europe/Zurich" > /dev/null
+# Show language menu in the top right corner of the boot screen
+sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool false
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false

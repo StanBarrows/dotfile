@@ -59,5 +59,6 @@ echo 'Install mackup'
 echo '--------------'
 brew install mackup
 
+bash macos/set-defaults.sh
 
 echo "Setting up your Mac"
