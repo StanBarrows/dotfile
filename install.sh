@@ -8,6 +8,14 @@ sudo -v
 # Symlink the Mackup config
 ln -s $HOME/.dotfile/macos/.mackup.cfg $HOME/.mackup.cfg
 
+# Add global gitignore
+ln -s $HOME/.dotfile/shell/.global-gitignore $HOME/.global-gitignore
+git config --global core.excludesfile $HOME/.global-gitignore
+
+# Symlink zsh prefs
+rm $HOME/.zshrc
+ln -s $HOME/.dotfile/shell/.zshrc $HOME/.zshrc
+
 echo 'Install homebrew'
 echo '----------------'
 echo install homebrew
@@ -21,6 +29,8 @@ echo '-----------'
 brew tap shivammathur/php
 brew install shivammathur/php/php@8.2
 brew link --overwrite --force php@8.2
+
+
 
 echo 'Install composer'
 echo '----------------'
@@ -38,17 +48,17 @@ rm composer-setup.php
 sudo mkdir /usr/local/bin/
 sudo mv composer.phar /usr/local/bin/composer
 
-echo 'Install imagemagick'
-echo '-------------------'
-brew install imagemagick
+#echo 'Install imagemagick'
+#echo '-------------------'
+#brew install imagemagick
 
-echo 'Install imagick'
-echo '---------------'
-pecl install imagick
+#echo 'Install imagick'
+#echo '---------------'
+#pecl install imagick
 
-echo 'Install xdebug'
-echo '--------------'
-pecl install xdebug
+#echo 'Install xdebug'
+#echo '--------------'
+#pecl install xdebug
 
 echo 'Install laravel valet'
 echo '---------------------'
@@ -58,7 +68,5 @@ valet install
 echo 'Install mackup'
 echo '--------------'
 brew install mackup
-
-bash macos/set-defaults.sh
 
 echo "Setting up your Mac"
